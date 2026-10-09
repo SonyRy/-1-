@@ -1,9 +1,9 @@
 import matplotlib.pyplot as plt
 from random import randint
 fig=plt.figure()
-s =[0 for i in range(1002)]
-d=[i for i in range (1002)]
-for i in range(1002):
+s =[0 for i in range(1001)]
+d=[i for i in range (1001)]
+for i in range(1001):
     if i>0:
         ind=randint(0,1)
         if ind==1: s[i]=s[i-1]+1
